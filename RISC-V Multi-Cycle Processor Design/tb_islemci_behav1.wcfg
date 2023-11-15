@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_islemci_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_islemci" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="576441103fs"></ZoomEndTime>
+      <Cursor1Time time="400000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="214"></NameColumnWidth>
+      <ValueColumnWidth column_width="584"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/tb_islemci/clk_r" type="logic">
+      <obj_property name="ElementShortName">clk_r</obj_property>
+      <obj_property name="ObjectShortName">clk_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/rst_r" type="logic">
+      <obj_property name="ElementShortName">rst_r</obj_property>
+      <obj_property name="ObjectShortName">rst_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/islemci_bellek_adres" type="array">
+      <obj_property name="ElementShortName">islemci_bellek_adres[31:0]</obj_property>
+      <obj_property name="ObjectShortName">islemci_bellek_adres[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/islemci_bellek_oku_veri" type="array">
+      <obj_property name="ElementShortName">islemci_bellek_oku_veri[31:0]</obj_property>
+      <obj_property name="ObjectShortName">islemci_bellek_oku_veri[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/islemci_bellek_yaz_veri" type="array">
+      <obj_property name="ElementShortName">islemci_bellek_yaz_veri[31:0]</obj_property>
+      <obj_property name="ObjectShortName">islemci_bellek_yaz_veri[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/islemci_bellek_yaz" type="logic">
+      <obj_property name="ElementShortName">islemci_bellek_yaz</obj_property>
+      <obj_property name="ObjectShortName">islemci_bellek_yaz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/anabellek/bellek" type="array">
+      <obj_property name="ElementShortName">bellek[0:2047][31:0]</obj_property>
+      <obj_property name="ObjectShortName">bellek[0:2047][31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/stall_ctr" type="array">
+      <obj_property name="ElementShortName">stall_ctr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stall_ctr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/BELLEK_ADRES" type="array">
+      <obj_property name="ElementShortName">BELLEK_ADRES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BELLEK_ADRES[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/ADRES_BIT" type="array">
+      <obj_property name="ElementShortName">ADRES_BIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADRES_BIT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/VERI_BIT" type="array">
+      <obj_property name="ElementShortName">VERI_BIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">VERI_BIT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/MAX_CYCLES" type="array">
+      <obj_property name="ElementShortName">MAX_CYCLES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_CYCLES[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/islemci/simdiki_asama_r" type="array">
+      <obj_property name="ElementShortName">simdiki_asama_r[1:0]</obj_property>
+      <obj_property name="ObjectShortName">simdiki_asama_r[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/islemci/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/islemci/extendedImm" type="array">
+      <obj_property name="ElementShortName">extendedImm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">extendedImm[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/islemci/unExtendedImm" type="array">
+      <obj_property name="ElementShortName">unExtendedImm[19:0]</obj_property>
+      <obj_property name="ObjectShortName">unExtendedImm[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/islemci/register1" type="array">
+      <obj_property name="ElementShortName">register1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">register1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/islemci/register2" type="array">
+      <obj_property name="ElementShortName">register2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">register2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/islemci/dest_register" type="array">
+      <obj_property name="ElementShortName">dest_register[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dest_register[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/islemci/whichInstruction" type="array">
+      <obj_property name="ElementShortName">whichInstruction[3:0]</obj_property>
+      <obj_property name="ObjectShortName">whichInstruction[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/islemci/yazmac_obegi" type="array">
+      <obj_property name="ElementShortName">yazmac_obegi[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">yazmac_obegi[0:31][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/islemci/ps_r" type="array">
+      <obj_property name="ElementShortName">ps_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ps_r[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/islemci/current_ps_r" type="array">
+      <obj_property name="ElementShortName">current_ps_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">current_ps_r[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_islemci/anabellek/bellek_satir_idx" type="array">
+      <obj_property name="ElementShortName">bellek_satir_idx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bellek_satir_idx[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
